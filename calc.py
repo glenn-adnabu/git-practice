@@ -3,6 +3,9 @@ def add(num1: int, num2: int) -> int:
 
 
 def subtract(num1: int, num2: int) -> int:
+    if num2 > num1:
+        raise TypeError("num2 was greater than num1.")
+        
     return num1 - num2
 
 
