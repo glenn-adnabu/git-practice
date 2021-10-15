@@ -11,4 +11,7 @@ def multiply(num1: int, num2: int) -> int:
 
 
 def divide(num1: int, num2: int) -> int:
+    if num2 == 0:
+        return 0
+    
     return num1 / num2
